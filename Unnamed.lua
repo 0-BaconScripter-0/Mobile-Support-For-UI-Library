@@ -87,7 +87,7 @@ local function createOptionHolder(holderTitle, parent, parentTable, subHolder)
 		BackgroundColor3 = Color3.fromRGB(10, 10, 10),
 		BorderSizePixel = 0,
 		Text = holderTitle,
-		TextSize = subHolder and 16 or 17,
+		TextSize = subHolder and 14 or 15,
 		Font = Enum.Font.FredokaOne,
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		Parent = parentTable.main
@@ -290,7 +290,7 @@ function createButton(option, parent)
 		Size = UDim2.new(1, 0, 0, 34),
 		BackgroundTransparency = 1,
 		Text = " " .. option.text,
-		TextSize = 17,
+		TextSize = 15,
 		Font = Enum.Font.FredokaOne,
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		Parent = parent.content
