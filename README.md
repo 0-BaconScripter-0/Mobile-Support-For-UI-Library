@@ -1,1 +1,1 @@
-UI Library that is for pc only can turn into mobile friendly.
+UI Library that is for pc only can be supported in mobile
